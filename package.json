@@ -1,0 +1,32 @@
+{
+  "name": "my-first-package",
+  "version": "1.0.0",
+  "description": "This is a backend-developing study with Node.js & Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofkarakus/Node.js-Express.git"
+  },
+  "keywords": [
+    "backend",
+    "node.js",
+    "express"
+  ],
+  "author": "Omer Karakus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofkarakus/Node.js-Express/issues"
+  },
+  "homepage": "https://github.com/ofkarakus/Node.js-Express#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

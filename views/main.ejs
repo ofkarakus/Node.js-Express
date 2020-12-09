@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js</title>
+  </head>
+  <body>
+    <p>HELLO FROM MAIN EJS</p>
+    <p>I'm <%=name%></p>
+
+    <% if(name) { %>
+    <h3>Hi <%=name%>!</h3>
+    <% } else { %>
+    <h3>Hi stranger!</h3>
+    <% } %>
+  </body>
+</html>
